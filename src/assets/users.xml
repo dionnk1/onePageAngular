@@ -1,0 +1,45 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<objects>
+    <object>
+        <id>1</id>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <email>johndoe@example.com</email>
+        <password>password123</password>
+        <age>30</age>
+        <address>
+            <street>123 Main Street</street>
+            <city>New York</city>
+            <state>NY</state>
+            <zip>10001</zip>
+        </address>
+    </object>
+    <object>
+        <id>2</id>
+        <firstName>Jane</firstName>
+        <lastName>Smith</lastName>
+        <email>janesmith@example.com</email>
+        <password>securepass456</password>
+        <age>25</age>
+        <address>
+            <street>456 Elm Street</street>
+            <city>Los Angeles</city>
+            <state>CA</state>
+            <zip>90001</zip>
+        </address>
+    </object>
+    <object>
+        <id>3</id>
+        <firstName>Michael</firstName>
+        <lastName>Johnson</lastName>
+        <email>michaelj@example.com</email>
+        <password>mypassword789</password>
+        <age>40</age>
+        <address>
+            <street>789 Oak Avenue</street>
+            <city>Chicago</city>
+            <state>IL</state>
+            <zip>60601</zip>
+        </address>
+    </object>
+</objects>

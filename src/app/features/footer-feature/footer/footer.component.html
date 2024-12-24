@@ -1,0 +1,33 @@
+<div class="last-break row">
+<footer class="bg-primary">
+    <div class="row text-light">
+      <div class="col-md-6">
+        <h4>SOLPan</h4>
+        <p style="width: 70%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus vel repellendus
+          atque eum dolorem
+          reprehenderit sunt quo quis molestias. Vel dicta placeat cupiditate amet minima blanditiis fuga voluptatum
+          sunt.</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Services</h4>
+        <app-footer-elements
+            *ngFor="let text of textList"
+            [text]="text"
+        ></app-footer-elements>
+        </div>
+      <div class="col-md-3">
+        <h4>Useful links</h4>
+          <app-footer-links
+              *ngFor="let link of linkList"
+              [link]="link">
+          </app-footer-links>
+          <a href="/login" style="cursor: pointer; text-decoration: none;">Join us</a>
+        </div>
+      <hr class="mt-5 ">
+      <div class="col-md-12 d-flex justify-content-between">
+
+        <p class="col-md-4 d-flex justify-content-start">2024 SOLPan © All right reserved</p>
+       </div>
+    </div>
+  </footer>
+</div>

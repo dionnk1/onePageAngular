@@ -1,0 +1,70 @@
+@use '../../../styles/abstracts/variables' as v;
+
+.col-card{
+    display: flex;
+    align-items: center;
+    @media (max-width:768px) {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card{
+    max-width: 80%;
+    height: 15rem;
+    width: 90%;
+    margin-bottom: 3rem;
+    padding: 50px 5px 0px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourservices-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:1400px) {
+        padding: 0;
+    }
+}
+
+.about-us-paragraph{
+    padding-top: 20%;
+    padding-left: 3rem;
+    @media (max-width:768px) {
+        padding-top: 3rem;
+        padding-left: 0;
+    }
+}
+
+.card-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media (max-width:768px) {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card-mid{
+    display: flex;
+    width: 40%;
+    height: fit-content;
+    @media (max-width:768px) {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.signin-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

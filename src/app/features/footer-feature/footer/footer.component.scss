@@ -1,0 +1,10 @@
+@use '../../../styles/abstracts/variables' as v;
+
+footer{
+    padding: 5rem 5rem 1rem;
+    margin: 0;
+    background-color: v.$primary-color;
+    a{
+        color: white;
+    }
+}
