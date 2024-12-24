@@ -1,0 +1,30 @@
+<main class="main">
+    <app-navbar></app-navbar>
+    <app-carousel></app-carousel>
+    <app-break
+        [includeHrTop] = "false"
+        [includeHrBottom]= "true"
+        section="SERVICES"
+        id="services">
+        
+    </app-break>
+    
+    <div  class="row d-flex flex-wrap justify-content-center">
+      <app-card
+          *ngFor="let card of cardList"
+          [card]="card"
+          class="col-lg-5 col-md-5 col-sm-5 px-4 d-flex justify-content-center">
+      </app-card>
+    </div>
+
+    <app-break></app-break>
+    <app-about></app-about>
+
+    <app-break id="contact-us"></app-break>
+    <app-contact>
+      <app-contact-info></app-contact-info>
+    </app-contact>
+    
+    <app-break [includeHrTop]="false"/>
+    <app-footer></app-footer>
+</main>

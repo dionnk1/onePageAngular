@@ -1,0 +1,22 @@
+@use '../../../styles/abstracts/variables' as v;
+.c-caption{
+    background-color: rgba($color: #f8f8f8, $alpha: 0.8);
+    width: 30%;
+    height: fit-content;
+    position:relative;
+    top: 10rem;
+    color: v.$black-color;
+    @media (max-width:992px) {
+        width: 50%;
+    }
+}
+
+.c-carosel-button{
+    width: 40%;
+}
+
+.c-carousel{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

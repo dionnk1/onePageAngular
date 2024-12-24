@@ -1,0 +1,26 @@
+<div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+        <a href="#" class="navbar-brand border-0">SOLPan</a>
+        <ul class="navbar-nav ml-auto col-lg-12 d-none d-lg-flex">
+            <app-footer-links
+            *ngFor="let link of linkList"
+            [link]="link"
+            [fragment]="link.fragment"
+            [routeLink]="link.routeLink">
+            </app-footer-links>
+            <a routerLink="/signup" class="btn btn-light">Join us</a>
+        </ul>
+
+        <div class="icon d-flex d-md-none" onclick="myFunction('links')">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hidden Sidebar -->
+    <!-- <div class="hidden" id="links">
+        <a routerLink="/home" fragment="services" class="btn d-flex justify-content-start">Services</a>
+        <a routerLink="/home" fragment="about-us" class="btn d-flex justify-content-start">About us</a>
+        <a routerLink="/home" fragment="contact-us" class="btn d-flex justify-content-start">Contact us</a>
+        <a routerLink="/login" class="btn btn-primary d-flex justify-content-start" style="width: 7rem;">Join us</a>
+    </div> -->
+</div>

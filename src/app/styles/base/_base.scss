@@ -1,0 +1,35 @@
+@use '../Abstracts/' as *;
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+.carousel{
+    padding: 0;
+    margin-top: 5rem;
+    height: 40rem;
+}
+
+.break{
+    display: inline-flex;
+    height: 10rem;
+    margin-top: 16rem;
+    padding: 0;
+}
+
+.new-section{
+    margin-top: 3rem;
+}
+
+.last-break{
+    margin-top: 10rem;
+}

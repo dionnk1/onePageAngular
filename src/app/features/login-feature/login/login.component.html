@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Login form of my website">
+
+<div class="container-fluid bg-light"
+    style="display: flex; align-items: center; justify-content: center; height: 100vh;">
+    <div class="row w-100">
+        <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-3"></div>
+        <div class="col-12 col-md-8 col-lg-8 col-xl-6 p-0">
+            <form  style="display: flex; justify-content: center; align-items: center;">
+                <div class="card w-75 mb-0 px-5">
+                    <div class="card-body text-center" style="display: 50vh;">
+
+
+                        <h3 class="mb-5">Sign in</h3>
+
+                        <div data-mdb-input-init class="form-outline">
+                            <input type="email" id="email" class="form-control" placeholder="Email" />
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="password" id="password" class="form-control"
+                                placeholder="Passwrod" />
+                        </div>
+                        <div class="form-check d-flex justify-content-start mb-4">
+                            <input class="form-check-input" type="checkbox" value="" id="remember-check" />
+                            <label class="form-check-label" for="remember-check"> Remember password </label>
+                        </div>
+
+                        <button data-mdb-button-init data-mdb-ripple-init class="w-100 btn btn-primary"
+                            type="submit" (click)="login()">Login</button>
+
+                        <hr class="my-4">
+                        <div class="text-center">
+                            <p>Don't have an account? <a href="/login">Sign up</a></p>
+                            <p>or sign in using:</p>
+                        </div>
+                        <div class="d-flex justify-content-between google-btn">
+                            <a data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-4 mb-5"
+                                id="google-btn" style="background-color: #dd4b39; display: inline-block; font-size: 18px; width: 45%;"
+                                type="submit"
+                                href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Fpli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-434467870%3A1734005781232060&ddm=1">
+                                <i class="fab fa-google me-2"></i><span>Login with Google</span>
+                            </a>
+                            <a data-mdb-button-init data-mdb-ripple-init class="btn btn-primary mb-5 px-4"
+                                id="facebook-btn"
+                                style="background-color: #3b5998; display: inline-block;  width: 45%; font-size: 18px;">
+                                <i class="fab fa-facebook-f me-2"></i> <span>Login with Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-3"></div>
+    </div>

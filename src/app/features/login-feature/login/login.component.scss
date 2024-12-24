@@ -1,0 +1,9 @@
+.form-control{
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+    &:focus{
+        outline: none;
+        box-shadow: none;
+        border: 0.1rem solid black;
+    }
+}
